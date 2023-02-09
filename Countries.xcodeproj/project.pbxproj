@@ -13,6 +13,8 @@
 		80D2957E299471EE00C3FF13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D2957C299471EE00C3FF13 /* Main.storyboard */; };
 		80D29580299471EE00C3FF13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D2957F299471EE00C3FF13 /* Assets.xcassets */; };
 		80D29583299471EE00C3FF13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D29581299471EE00C3FF13 /* LaunchScreen.storyboard */; };
+		80D2958B299471F800C3FF13 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D2958A299471F800C3FF13 /* Model.swift */; };
+		80D2958D2994720000C3FF13 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D2958C2994720000C3FF13 /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		80D2957F299471EE00C3FF13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80D29582299471EE00C3FF13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80D29584299471EE00C3FF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D2958A299471F800C3FF13 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		80D2958C2994720000C3FF13 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				80D29576299471EE00C3FF13 /* AppDelegate.swift */,
 				80D29578299471EE00C3FF13 /* SceneDelegate.swift */,
 				80D2957A299471EE00C3FF13 /* ViewController.swift */,
+				80D2958C2994720000C3FF13 /* Service.swift */,
+				80D2958A299471F800C3FF13 /* Model.swift */,
 				80D2957C299471EE00C3FF13 /* Main.storyboard */,
 				80D2957F299471EE00C3FF13 /* Assets.xcassets */,
 				80D29581299471EE00C3FF13 /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				80D2957B299471EE00C3FF13 /* ViewController.swift in Sources */,
 				80D29577299471EE00C3FF13 /* AppDelegate.swift in Sources */,
+				80D2958D2994720000C3FF13 /* Service.swift in Sources */,
 				80D29579299471EE00C3FF13 /* SceneDelegate.swift in Sources */,
+				80D2958B299471F800C3FF13 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
